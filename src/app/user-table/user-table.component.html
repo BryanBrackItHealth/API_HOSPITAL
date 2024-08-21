@@ -1,9 +1,9 @@
 <div class="container">
-    <button mat-raised-button color="primary" (click)="toggleForm()">Crear usuario</button>
+    <button mat-raised-button color="primary" (click)="toggleForm()">Crear paciente</button>
   
     <mat-card *ngIf="showForm">
       <mat-card-header>
-        <mat-card-title>{{ editingUser ? 'Editar Usuario' : 'Crear Usuario' }}</mat-card-title>
+        <mat-card-title>{{ editingUser ? 'Editar paciente' : 'Crear paciente' }}</mat-card-title>
       </mat-card-header>
       <mat-card-content>
         <form [formGroup]="userForm" (ngSubmit)="saveUser()">

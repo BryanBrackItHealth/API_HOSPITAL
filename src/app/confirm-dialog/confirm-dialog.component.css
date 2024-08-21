@@ -1,0 +1,52 @@
+/* Fondo del diálogo */
+.mat-dialog-container {
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  }
+  
+  /* Título del diálogo */
+  .mat-dialog-title {
+    font-size: 1.5rem; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+    color: #333; /* Color del texto */
+    text-align: center; /* Centrar texto */
+    padding-bottom: 10px; /* Espaciado inferior */
+  }
+  
+  /* Contenido del diálogo */
+  .mat-dialog-content {
+    font-size: 1rem; /* Tamaño del texto */
+    color: #555; /* Color del texto */
+    text-align: center; /* Centrar texto */
+    padding: 20px; /* Espaciado alrededor del contenido */
+  }
+  
+  /* Botones de acción */
+  .mat-dialog-actions {
+    display: flex;
+    justify-content: center; /* Centrar botones */
+    padding-top: 10px; /* Espaciado superior */
+  }
+  
+  /* Botones dentro del diálogo */
+  .mat-button {
+    margin: 0 10px; /* Espaciado horizontal entre botones */
+  }
+  
+  .mat-button.warn {
+    background-color: #f44336; /* Color de fondo para el botón de 'Sí' */
+    color: white; /* Color del texto del botón */
+  }
+  
+  .mat-button.warn:hover {
+    background-color: #d32f2f; /* Color de fondo en hover */
+  }
+  
+  .mat-button:not(.warn) {
+    background-color: #e0e0e0; /* Color de fondo para el botón de 'No' */
+    color: #000; /* Color del texto del botón */
+  }
+  
+  .mat-button:not(.warn):hover {
+    background-color: #bdbdbd; /* Color de fondo en hover */
+  }  

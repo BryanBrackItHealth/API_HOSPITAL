@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container Styles */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button Styles */
+  button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  /* Card Styles */
+  mat-card {
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Form Styles */
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  mat-form-field .mat-form-field-label {
+    font-weight: bold;
+  }
+  
+  /* Table Styles */
+  mat-table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  mat-header-cell {
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  mat-cell {
+    text-align: center;
+  }
+  
+  mat-row:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  mat-row:hover {
+    background-color: #e0e0e0;
+  }
+  
+  mat-icon {
+    vertical-align: middle;
+  }  
+  .mat-dialog-backdrop {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  }
+  
